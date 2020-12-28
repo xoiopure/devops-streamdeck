@@ -2,7 +2,10 @@
   "name": "dev.santiagomartin.devops",
   "version": "1.6.0",
   "description": "DevOps tool for Stream Deck",
-  "repository": "https://github.com/SantiMA10/devops-streamdeck.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiMA10/devops-streamdeck.git"
+  },
   "author": "Santiago Martín <hi@santiagomartin.dev>",
   "license": "MIT",
   "private": true,
@@ -37,5 +40,10 @@
     "ts-jest": "^25.2.1",
     "typescript": "^3.8.3",
     "whatwg-fetch": "^3.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/SantiMA10/devops-streamdeck/issues"
+  },
+  "homepage": "https://github.com/SantiMA10/devops-streamdeck#readme",
+  "main": "jest.config.js"
 }
